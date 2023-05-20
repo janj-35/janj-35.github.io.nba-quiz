@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NBA Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1> NBA Q's</h1>
+    </header>
+    <nav>
+      <a href="index.html">Restart game</a>
+    </nav>
+    <main class="container">
+      <section class="pregame">
+        <div id="instructions">
+          <p>To play this game, click the start button and you have a possesion
+            of 24 to score. A right answer will give you 1 point
+            and a wrong answer 0 points. Let's see how good you know NBA Basketball!
+          </p>
+        </div>
+        <div id="start">
+          <button id="start-button" onclick="">Start the game</button>
+        </div>
+      </section>
+      <section class="data">
+        <div class="counter">
+          <p>shot's made:</p>
+          <p id="correctCount">0</p>
+        </div>
+        <div class="timer">
+          <p>shot clock:</p>
+          <p id="shotClock">24</p>
+        </div>
+      </section>
+      <section class="quiz">
+        <div id="question">
+          Question
+        </div>
+        <div class="options">
+          <button class="option-box" id="option1">Option 1</button>
+          <button class="option-box" id="option2">Option 2</button>
+          <button class="option-box" id="option3">Option 3</button>
+          <button class="option-box" id="option4">Option 4</button>
+        </div>
+      </section>
+    </main>
+    <footer>© Alejandro Yusta / All rights reserved</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
